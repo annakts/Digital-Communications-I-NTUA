@@ -32,4 +32,5 @@ plot(yrx(1:10*nsamp));
 hold;
 stem([1:nsamp:nsamp*10],y1(1:10));
 figure(3);
+
 pwelch(yrx);
